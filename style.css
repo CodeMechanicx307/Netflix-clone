@@ -11,7 +11,7 @@ body {
 }
 
 .main {
-    background-image: url("assets/images/bg.jpg");
+    background-image: url("assets\images\bg.jpg");
     background-position: center center;
     background-size: max(1200px, 100vw);
     background-repeat: no-repeat;
@@ -19,10 +19,10 @@ body {
     position: relative;
 }
 
-.main .box {
+main .box{
     height: 644px;
     width: 100%;
-    opacity: 0.69;
+    opacity: 0.29;
     position: absolute;
     top: 0;
     background-color: black;
@@ -230,7 +230,7 @@ footer .questions {
 
 @media screen and (max-width: 1300px) {
 
-    nav{
+    nav {
         max-width: 90vw;
     }
 
@@ -276,10 +276,10 @@ footer .questions {
         padding: 75px 0;
     }
 
-    .footer-item{
+    .footer-item {
         align-items: center;
     }
- 
+
 
 }
 
